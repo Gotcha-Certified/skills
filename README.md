@@ -30,19 +30,4 @@ You can ask the agent to explain the skill before installing it:
 
 > Read this skill first. What will it ask you to do, what files does it contain and is there anything I should check before I install it?
 
-## For websites and other Gotcha products
-
-[`registry.json`](registry.json) is the machine-readable catalogue. Gotcha websites can use it to show the current skills without maintaining a second list.
-
-Collections define which skills belong to a particular workshop or programme. The first collection is [Your First Personal Agent — 25 August 2026](collections/workshop-2026-08-25.json).
-
-## Publishing rules
-
-- `main` contains the latest public, stable version.
-- Every skill keeps one permanent folder name. Existing URLs should not break.
-- Changes are reviewed through pull requests once the initial library is established.
-- A collection or release tag can pin the exact versions used by a workshop.
-- The skill folder is authoritative. Articles, slides and websites should link here instead of keeping editable copies.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the structure and review process.
-
+That is all a skill is: written instructions, plus any supporting files it needs.
