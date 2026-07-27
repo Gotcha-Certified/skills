@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gotcha Competitor Analysis"
+  short_description: "Compare a company with a real competitor"
+  default_prompt: "Use $gotcha-competitor-analysis to compare my company with a competitor and create a practical report."

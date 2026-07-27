@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gotcha Personal Assistant Setup"
+  short_description: "Build your first personal assistant workspace"
+  default_prompt: "Use $gotcha-personal-assistant-setup to interview me and build my personal assistant in this project."

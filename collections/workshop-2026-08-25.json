@@ -1,0 +1,14 @@
+{
+  "id": "workshop-2026-08-25",
+  "name": "Your First Personal Agent — 25 August 2026",
+  "description": "The setup and exercise skills used during the Gotcha, Pipple and PSV workshop.",
+  "skills": [
+    "gotcha-personal-assistant-setup",
+    "gotcha-competitor-analysis",
+    "gotcha-week-preparation",
+    "gotcha-lead-research",
+    "gotcha-purchase-research",
+    "gotcha-market-exploration"
+  ]
+}
+

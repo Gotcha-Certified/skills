@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gotcha Week Preparation"
+  short_description: "Prepare a focused and realistic workweek"
+  default_prompt: "Use $gotcha-week-preparation to prepare my coming workweek."

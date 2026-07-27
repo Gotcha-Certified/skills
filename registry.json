@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/Gotcha-Certified/skills",
+  "skills": [
+    {
+      "id": "gotcha-competitor-analysis",
+      "name": "Gotcha Competitor Analysis",
+      "version": "0.1.0",
+      "description": "Compare a company with a competitor using public evidence and turn the findings into practical improvements.",
+      "path": "skills/gotcha-competitor-analysis",
+      "github_url": "https://github.com/Gotcha-Certified/skills/tree/main/skills/gotcha-competitor-analysis",
+      "raw_skill_url": "https://raw.githubusercontent.com/Gotcha-Certified/skills/main/skills/gotcha-competitor-analysis/SKILL.md",
+      "categories": ["research", "strategy", "leadership"]
+    },
+    {
+      "id": "gotcha-lead-research",
+      "name": "Gotcha Lead Research",
+      "version": "0.1.0",
+      "description": "Find and rank organisations that appear to fit a company, with evidence for timing and relevance.",
+      "path": "skills/gotcha-lead-research",
+      "github_url": "https://github.com/Gotcha-Certified/skills/tree/main/skills/gotcha-lead-research",
+      "raw_skill_url": "https://raw.githubusercontent.com/Gotcha-Certified/skills/main/skills/gotcha-lead-research/SKILL.md",
+      "categories": ["research", "sales"]
+    },
+    {
+      "id": "gotcha-market-exploration",
+      "name": "Gotcha Market Exploration",
+      "version": "0.1.0",
+      "description": "Explore whether a new market or customer segment is worth testing.",
+      "path": "skills/gotcha-market-exploration",
+      "github_url": "https://github.com/Gotcha-Certified/skills/tree/main/skills/gotcha-market-exploration",
+      "raw_skill_url": "https://raw.githubusercontent.com/Gotcha-Certified/skills/main/skills/gotcha-market-exploration/SKILL.md",
+      "categories": ["research", "strategy"]
+    },
+    {
+      "id": "gotcha-personal-assistant-setup",
+      "name": "Gotcha Personal Assistant Setup",
+      "version": "0.1.0",
+      "description": "Interview someone and build the first version of a local personal-assistant workspace.",
+      "path": "skills/gotcha-personal-assistant-setup",
+      "github_url": "https://github.com/Gotcha-Certified/skills/tree/main/skills/gotcha-personal-assistant-setup",
+      "raw_skill_url": "https://raw.githubusercontent.com/Gotcha-Certified/skills/main/skills/gotcha-personal-assistant-setup/SKILL.md",
+      "categories": ["personal-assistant", "setup"]
+    },
+    {
+      "id": "gotcha-purchase-research",
+      "name": "Gotcha Purchase Research",
+      "version": "0.1.0",
+      "description": "Compare business purchases and prepare a decision brief.",
+      "path": "skills/gotcha-purchase-research",
+      "github_url": "https://github.com/Gotcha-Certified/skills/tree/main/skills/gotcha-purchase-research",
+      "raw_skill_url": "https://raw.githubusercontent.com/Gotcha-Certified/skills/main/skills/gotcha-purchase-research/SKILL.md",
+      "categories": ["research", "procurement"]
+    },
+    {
+      "id": "gotcha-week-preparation",
+      "name": "Gotcha Week Preparation",
+      "version": "0.1.0",
+      "description": "Prepare the coming week from calendars, messages, notes, goals and commitments.",
+      "path": "skills/gotcha-week-preparation",
+      "github_url": "https://github.com/Gotcha-Certified/skills/tree/main/skills/gotcha-week-preparation",
+      "raw_skill_url": "https://raw.githubusercontent.com/Gotcha-Certified/skills/main/skills/gotcha-week-preparation/SKILL.md",
+      "categories": ["planning", "personal-assistant"]
+    }
+  ]
+}
+

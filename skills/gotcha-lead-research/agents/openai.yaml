@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gotcha Lead Research"
+  short_description: "Find prospects with evidence of fit"
+  default_prompt: "Use $gotcha-lead-research to find and rank promising organisations for us."

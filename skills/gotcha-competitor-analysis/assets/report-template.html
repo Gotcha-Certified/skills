@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{REPORT_TITLE}}</title>
+  <style>
+    :root {
+      --ink: #171713;
+      --muted: #6b6a61;
+      --paper: #f5f1e8;
+      --white: #fffdf8;
+      --line: #d9d2c5;
+      --accent: #ff5c35;
+      --green: #1f7a5a;
+      --amber: #b56a16;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font: 16px/1.55 Arial, sans-serif;
+    }
+    main {
+      width: min(1080px, calc(100% - 40px));
+      margin: 40px auto;
+    }
+    header, section {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 32px;
+      margin-bottom: 18px;
+    }
+    h1, h2, h3 { line-height: 1.12; margin-top: 0; }
+    h1 { font-size: 42px; max-width: 800px; }
+    h2 { font-size: 26px; margin-bottom: 18px; }
+    h3 { font-size: 19px; margin-bottom: 8px; }
+    p { margin: 0 0 14px; }
+    .eyebrow { color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+    .meta, .caption, .source { color: var(--muted); font-size: 14px; }
+    .conclusion { font-size: 22px; max-width: 850px; }
+    .finding { border-top: 1px solid var(--line); padding: 22px 0 4px; }
+    .finding:first-of-type { border-top: 0; padding-top: 0; }
+    .label { font-weight: 700; color: var(--green); }
+    .verify { color: var(--amber); }
+    img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; margin: 12px 0 6px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); padding: 12px 10px; }
+    th { font-size: 14px; color: var(--muted); }
+    a { color: var(--ink); }
+    @media print {
+      body { background: white; }
+      main { width: 100%; margin: 0; }
+      header, section { break-inside: avoid; border-radius: 0; }
+      .finding { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Competitor analysis</div>
+      <h1>{{REPORT_TITLE}}</h1>
+      <p class="conclusion">{{EXECUTIVE_CONCLUSION}}</p>
+      <p class="meta">Research date: {{RESEARCH_DATE}} · Scope: {{SCOPE}}</p>
+    </header>
+
+    <section>
+      <h2>What matters most</h2>
+      {{FINDINGS}}
+    </section>
+
+    <section>
+      <h2>What your company already does well</h2>
+      {{STRENGTHS}}
+    </section>
+
+    <section>
+      <h2>What to do next</h2>
+      {{ACTIONS_TABLE}}
+    </section>
+
+    <section>
+      <h2>What the team should verify</h2>
+      {{MISSING_DATA}}
+    </section>
+
+    <section>
+      <h2>Limits and assumptions</h2>
+      {{LIMITS}}
+    </section>
+
+    <section>
+      <h2>Sources</h2>
+      {{SOURCES}}
+    </section>
+  </main>
+</body>
+</html>

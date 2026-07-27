@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gotcha Market Exploration"
+  short_description: "Test whether a new market is worth exploring"
+  default_prompt: "Use $gotcha-market-exploration to explore a new market for our company."

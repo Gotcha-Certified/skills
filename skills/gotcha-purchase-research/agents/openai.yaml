@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gotcha Purchase Research"
+  short_description: "Compare purchase options against real needs"
+  default_prompt: "Use $gotcha-purchase-research to prepare a purchase decision."
