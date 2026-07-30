@@ -9,6 +9,8 @@ A skill is a small set of written instructions that teaches an AI agent how to h
 | Skill | What it helps with |
 | --- | --- |
 | [Competitor Analysis](skills/gotcha-competitor-analysis/) | Compare a company with a competitor using public evidence and turn the findings into practical improvements. |
+| [Interview Me](skills/interview-me/) | Relentlessly interview someone about a plan until its decisions and dependencies are clear. |
+| [Interview Me with Docs](skills/interview-me-with-docs/) | Run the same interview while preserving terminology, decisions and open questions in the project documentation. |
 | [Lead Research](skills/gotcha-lead-research/) | Find and rank organisations that appear to fit a company, with evidence for timing and relevance. |
 | [Market Exploration](skills/gotcha-market-exploration/) | Explore whether a new market or customer segment is worth testing. |
 | [Personal Assistant Setup](skills/gotcha-personal-assistant-setup/) | Interview someone and build the first version of a local personal-assistant workspace. |

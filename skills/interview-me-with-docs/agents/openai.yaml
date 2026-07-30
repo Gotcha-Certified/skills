@@ -1,0 +1,5 @@
+interface:
+  display_name: "Interview Me with Docs"
+  short_description: "Sharpen a plan and preserve the decisions"
+policy:
+  allow_implicit_invocation: false
