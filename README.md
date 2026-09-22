@@ -16,27 +16,13 @@ A skill is a small set of written instructions that teaches an AI agent how to h
 | [Personal Assistant Setup](skills/gotcha-personal-assistant-setup/) | Interview someone and build the first version of a local personal-assistant workspace. |
 | [Purchase Research](skills/gotcha-purchase-research/) | Compare business purchases and prepare a decision brief. |
 | [Week Preparation](skills/gotcha-week-preparation/) | Prepare the coming week from calendars, messages, notes, goals and commitments. |
-| [Writing Fragments](skills/writing-fragments/) | Gather ideas, examples and sharp lines through conversation, without choosing an article structure. |
-| [Writing Shape](skills/writing-shape/) | Turn raw material into an article, agreeing on each paragraph or block as you go. |
-| [Writing Beats](skills/writing-beats/) | Build an article one beat at a time, choosing between possible next moves. |
+| [Writing Fragments](skills/writing-skills/writing-fragments/) | Gather ideas, examples and sharp lines through conversation, without choosing an article structure. |
+| [Writing Shape](skills/writing-skills/writing-shape/) | Turn raw material into an article, agreeing on each paragraph or block as you go. |
+| [Writing Beats](skills/writing-skills/writing-beats/) | Build an article one beat at a time, choosing between possible next moves. |
 
 ## Write with these skills
 
-Start with **Writing Fragments** when you're still finding what you want to say. It gathers material in one Markdown file without imposing an outline.
-
-Once you have enough material, choose **Writing Shape** or **Writing Beats**. They're two ways to build the article; you don't need to use both. Shape works paragraph by paragraph. Beats offers a choice of directions at each step. Both establish what the reader already knows and introduce new ideas before relying on them.
-
-After installing the skills, ask your agent to use one by name. For example:
-
-> Use writing-fragments to help me explore why teams struggle to edit AI drafts. Save the fragments to `drafts/editing-fragments.md`.
-
-Then choose one of these:
-
-> Use writing-shape with `drafts/editing-fragments.md`. Help me write an article for team leads, and save it to `drafts/editing-article.md`.
-
-> Use writing-beats with `drafts/editing-fragments.md`. Offer me a choice of starting beats, and save the article to `drafts/editing-article.md`.
-
-These are conversations. Expect questions and choices as you work through the piece.
+The [Writing Skills folder](skills/writing-skills/) contains all three writing skills, with a guide and example prompts.
 
 ## Install a skill
 
