@@ -14,6 +14,7 @@ A skill is a small set of written instructions that teaches an AI agent how to h
 | [Lead Research](skills/gotcha-lead-research/) | Find and rank organisations that appear to fit a company, with evidence for timing and relevance. |
 | [Market Exploration](skills/gotcha-market-exploration/) | Explore whether a new market or customer segment is worth testing. |
 | [Personal Assistant Setup](skills/gotcha-personal-assistant-setup/) | Interview someone and build the first version of a local personal-assistant workspace. |
+| [Personal Assistant Setup v2](skills/gotcha-personal-assistant-setup-v2/) | Interview someone and build a simpler personal assistant: an AGENTS.md that explains how it works, plus a Context folder with Me, People, To-dos and Notes, a weekly tidy-up and self-improvement with approval. |
 | [Purchase Research](skills/gotcha-purchase-research/) | Compare business purchases and prepare a decision brief. |
 | [Week Preparation](skills/gotcha-week-preparation/) | Prepare the coming week from calendars, messages, notes, goals and commitments. |
 | [Writing Fragments](skills/writing-skills/writing-fragments/) | Gather ideas, examples and sharp lines through conversation, without choosing an article structure. |
